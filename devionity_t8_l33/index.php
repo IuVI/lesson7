@@ -1,10 +1,7 @@
 <?php
-define('YEAR', 365);
-define('DAY', 24);
-define('HOUR', 60);
-define('MINUTE', 60);
-$consts = get_defined_constants();
+include 'constants.php';
 include 'functions.php';
+$consts = get_defined_constants();
 $yhour = yhour();
 $yminute = yminute();
 $ysecond = ysecond();
